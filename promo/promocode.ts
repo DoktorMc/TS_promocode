@@ -31,8 +31,8 @@ function calculateBonus(promoCode: number) {
   if (bonusMask.includes("eeooeeoo") || bonusMask.includes("ooeeooee")) {
     const randomNumber = Math.floor(Math.random() * 2);
     randomNumber
-      ? console.log("Your bonus is 1000")
-      : console.log("Your bonus is 2000");
+      ? console.log("Your random bonus is 1000")
+      : console.log("Your random bonus is 2000");
     validBonus = true;
   }
 
